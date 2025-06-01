@@ -8,5 +8,6 @@ declare module 'styled-components' {
     corDeFundo: string
     corDeFundoBotao: string
     corDaBorda: string
+    corHoverBotao: string
   }
 }

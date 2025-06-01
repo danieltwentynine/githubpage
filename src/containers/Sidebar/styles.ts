@@ -15,8 +15,8 @@ export const BotaoTema = styled.button`
   background-color: ${(props) => props.theme.corPrincipal};
   cursor: pointer;
 
-  button::hover {
-    background-color: rgb(60, 62, 74);
+  &:hover {
+    background-color: ${(props) => props.theme.corHoverBotao};
   }
 `
 
